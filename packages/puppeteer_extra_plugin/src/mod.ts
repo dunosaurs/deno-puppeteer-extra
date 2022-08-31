@@ -58,9 +58,8 @@ export type PluginRequirements = Set<
  * await browser.close()
  */
 export abstract class PuppeteerExtraPlugin {
-  /** @private */
-  /** @private */
-  private _opts: PluginOptions;
+  /** @protected */
+  protected _opts: PluginOptions;
   /** @private */
   private _childClassMembers: string[];
 
