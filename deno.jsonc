@@ -1,0 +1,11 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "test": "deno test -A"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  }
+}

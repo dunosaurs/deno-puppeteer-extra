@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "puppeteer": "https://deno.land/x/puppeteer@16.2.0/mod.ts",
+    "puppeteer/": "https://deno.land/x/puppeteer@16.2.0/",
+    "assert": "https://deno.land/std@0.153.0/testing/asserts.ts",
+    "@": "./mod.ts",
+    "@/": "./"
+  }
+}
